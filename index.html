@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <title>Dashboard-Buyer Profile-Bank Details</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="css/responsive.css" />
+      <link rel="stylesheet" href="css/bootstrap-select.css" />
+   </head>
+   <body class="dashboard dashboard_1">
+      <div class="full_container">
+         <div class="inner_container">
+            <nav id="sidebar">
+               <div class="sidebar_blog_1">
+                  <div class="sidebar-header">
+                     <div class="logo_section">
+                        <a href="index.html">
+                           <img class="logo_icon img-responsive" src="images/logo/Group 1.png" alt="#" />
+                        </a>
+                     </div>
+                  </div>
+                  <div class="sidebar_user_info">
+                     <div class="icon_setting"></div>
+                     <div class="user_profle_side">
+                        <div class="logo_img">
+                           <img class="img-responsive" src="images/logo/Logo.png" alt="#" />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="sidebar_blog_2">
+                  <ul class="list-unstyled components">
+                     <li id="left" class="active">
+                        <a href="#dashboard">
+                           <img src="images/icons/Dashboard Icon.png" alt=""> 
+                           <span>Dashboard</span>
+                        </a>
+                     </li>
+                     <li id="left">
+                        <a href="wallet">
+                           <img src="images/icons/Wallet.png" alt=""> 
+                           <span>Wallet</span>
+                        </a>
+                     </li>
+                     <li id="left">
+                        <a href="#transaction">
+                           <img src="images/icons/Transaction.png" alt=""> 
+                           <span>Transaction</span>
+                        </a>
+                     </li>
+                     <li id="left">
+                        <a href="#delivery">
+                           <img src="images/icons/Delivery.png" alt=""> 
+                           <span>Delivery</span>
+                        </a>
+                     </li>
+                     <li id="left">
+                        <a href="#dispute">
+                           <img src="images/icons/Dispute.png" alt=""> 
+                           <span>Dispute</span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+
+            <div id="content">
+               <div class="topbar">
+                  <nav class="navbar navbar-expand-lg navbar-light">
+                     <div class="full">
+                        <button type="button" id="sidebarCollapse" class="sidebar_toggle">
+                           <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="right_topbar">
+                           <div class="icon_info">
+                              <ul class="pd_ltr ">
+                                 <li >
+                                    <a href="#">
+                                       <img class="full-bgd" src="images/badges/Bell_pin_light.png" alt="">
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#">
+                                       <img class="full-frm" src="images/badges/Frame 8990.png" alt="">
+                                    </a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </nav>
+               </div>
+
+               <div class="midde_cont">
+                  <div class="container-fluid">
+                     <div class="row column_title">
+                        <div class="col-md-12">
+                           <div class="page_title">
+                              <h2>Account Settings</h2>
+                              <p>Set Up Your Account Information</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="container custom1">
+                           <div class="row " style="background: url(images/backgrounds/Frame\ 9095.png);">
+                              <div class="col-md-4 col-lg-3">
+                                 <div class="counter_section ">
+                                    <div id="link-texts">
+                                       <ul id="txt-links">
+                                          <li> <a href="#"> Profile </a> </li>
+                                          <li> <a href="#"> Verification </a> </li>
+                                          <li> <a href="#"> <span id="span-col">Bank Details</span> </a> </li>
+                                          <li> <a href="#"> Notification Settings </a> </li>
+                                          <li> <a href="#"> Give Feedback </a> </li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-8 col-lg-9 line-divider">
+                                 <div class="counter_section ">
+                                    <div class="form">
+                                       <form name="bank-details" id="bank-details">
+                                           <label for="">Bank Name</label>
+                                           <input type="text" id="mail" placeholder="eg. First Bank">
+                                           <label for="">Account Name</label>
+                                           <input type="text" id="user" placeholder="eg. Bryan Daniels">
+                                           <label for="">Account Number</label>
+                                           <input type="text" id="pass" placeholder="eg. 221034521">
+                                           <label for="">Bank Verification Number</label>
+                                           <input type="text" id="pass" placeholder="eg. 12123456789">
+                                           <button type="submit" id="btn_sign" class="btn" >
+                                             <a href="#" onclick="submitForm()">Verify</a>
+                                          </button>
+                                           </p>
+                                       </form>
+                                   </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+            </div>
+         </div>
+      </div>
+      <!-- <script>
+         $("#btn_sign").click(function () {
+        $("#bank-details").trigger("reset");
+    });
+     </script> -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/animate.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
