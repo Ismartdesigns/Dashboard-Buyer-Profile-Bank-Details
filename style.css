@@ -301,7 +301,7 @@ a[data-toggle="collapse"] {
     margin-top: 0;
     margin-bottom: 30px;
     padding: 25px 35px 22px 38px;
-    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     margin-left: -40px;
     margin-right: -40px;
     position: relative;
